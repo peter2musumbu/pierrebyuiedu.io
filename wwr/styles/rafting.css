@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #FF6F61;
+    --secondary-color: #FFA07A;
+    --font-color: #333;
+    --background-color: #f5f5f5;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+header img {
+    width: 100px;
+}
+
+nav a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    background-image: url('../images/parsa-mahmoudi.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 210px 0;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    color: white;
+    max-width: 300px;
+}
+
+.hero article img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
